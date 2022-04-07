@@ -16,6 +16,26 @@ function navTransitions() {
       this.className += ' active-btn';
     })
   }
+
+  // Sections Active Class
+  allSections.addEventListener('click', (e) => {
+    const id = e.target.dataset.id; // Tagrgets the data-id controls in index.html
+    if (id) {
+      // Remove Selected from the other control buttons
+      sectionButtons.forEach((btn) => {
+        btn.classList.remove('active')
+      })
+      e.target.classList.add('active')
+
+      // Hide Other Sections
+      sections.forEach((section) => {
+        section.classList.remove('active')
+      })
+
+      const element = document.getElementById(id);
+      element.classList.add('active');
+    }
+  })
 }
 
 navTransitions();
