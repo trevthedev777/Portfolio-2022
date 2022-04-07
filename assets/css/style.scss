@@ -20,6 +20,7 @@
   --color-grey-6: #12181B;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.2);
+  --transition-1: all .4s ease-in-out;
 }
 
 body {
@@ -27,7 +28,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
-  transition: all .4s ease-in-out;
+  transition: var(--transition-1);
 }
 
 a {
@@ -57,7 +58,7 @@ section {
 // Global Section Styling
 .section {
   transform: translateY(-100%) scale(0);
-  transition: all .4s ease-in-out;
+  transition: var(--transition-1);
   background-color: var(--color-primary);
 }
 
@@ -102,6 +103,16 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
+
+  // Active Button 
+  .active-btn {
+    background-color: var(--color-secondary) !important;
+    transition: var(--transition-1);
+
+      i {
+        color: var(--color-white);
+      }
+  }
 
   // Individual Control
   .control {
