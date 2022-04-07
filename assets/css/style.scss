@@ -72,28 +72,24 @@ section {
 .section-two {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: slateblue;
 }
 
 // Portfolio Section
 .section-three {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(113, 222, 146);
 }
 
 // Blogs Section
 .section-four {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(60, 234, 144);
 }
 
 // Contact Section
 .section-five {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(57, 224, 79);
 }
 
 .active {
@@ -101,10 +97,10 @@ section {
   animation: scaleAnim 1s ease-in-out;
   @keyframes scaleAnim {
     0% {
-      transform: translateY(-100%) scale(0);
+      transform: translateY(-100%) scaleY(0);
     }
     100% {
-      transform: translateY(0) scale(1);
+      transform: translateY(0) scaleY(1);
     }
   }
 }

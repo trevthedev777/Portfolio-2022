@@ -72,28 +72,24 @@ section {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: slateblue;
 }
 
 .section-three {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #71de92;
 }
 
 .section-four {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #3cea90;
 }
 
 .section-five {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #39e04f;
 }
 
 .active {
@@ -104,23 +100,23 @@ section {
 
 @-webkit-keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-100%) scale(0);
-            transform: translateY(-100%) scale(0);
+    -webkit-transform: translateY(-100%) scaleY(0);
+            transform: translateY(-100%) scaleY(0);
   }
   100% {
-    -webkit-transform: translateY(0) scale(1);
-            transform: translateY(0) scale(1);
+    -webkit-transform: translateY(0) scaleY(1);
+            transform: translateY(0) scaleY(1);
   }
 }
 
 @keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-100%) scale(0);
-            transform: translateY(-100%) scale(0);
+    -webkit-transform: translateY(-100%) scaleY(0);
+            transform: translateY(-100%) scaleY(0);
   }
   100% {
-    -webkit-transform: translateY(0) scale(1);
-            transform: translateY(0) scale(1);
+    -webkit-transform: translateY(0) scaleY(1);
+            transform: translateY(0) scaleY(1);
   }
 }
 
