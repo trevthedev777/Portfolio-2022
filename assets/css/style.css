@@ -369,6 +369,21 @@ section {
   padding: 3.5rem 0 5rem 0;
 }
 
+.about-container .left-about {
+  padding-right: 5rem;
+}
+
+.about-container .left-about p {
+  line-height: 2rem;
+  padding: 1rem;
+  color: var(--color-grey-1);
+}
+
+.about-container .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
 .about-container .right-about {
   display: -ms-grid;
   display: grid;
