@@ -536,13 +536,14 @@ section {
 
 .stat-title::before {
   content: '';
+  position: absolute;
   left: 50%;
   top: 0;
   width: 40%;
   height: 1px;
   background-color: var(--color-grey-5);
-  -webkit-transform: translateX(-50%, -50%);
-          transform: translateX(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .timeline {
