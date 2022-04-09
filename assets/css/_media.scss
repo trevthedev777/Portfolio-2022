@@ -3,7 +3,20 @@
         padding: 0;
 
         .right-header {
-            padding: 2rem !important;
+            padding: 0 !important;
+        }
+    }
+
+    .main-title {
+        h2 {
+            font-size: 2rem;
+
+            span {
+                font-size: 2.5rem;
+            }
+            .bg-text {
+                font-size: 3rem;
+            }
         }
     }
 
@@ -46,7 +59,67 @@
     // About Section
 
     .about-container {
+        grid-template-columns: 1fr;
         
+        .right-about {
+            padding-top: 2.5rem;
+            grid-template-columns: 1fr;
+        }
+        
+        .left-about {
+            padding: 0;
+
+            p {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .portfolio-container {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .blog-item-container {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .contact-content-container {
+        flex-direction: column;
+
+        .right-contact {
+            margin-left: 0;
+            margin-top: 2.5rem;
+
+            .input-control-2 {
+                flex-direction: column;
+
+                & :last-child {
+                    margin-left: 0;
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+
+        p {
+            font-size: .9rem;
+        }
+    }
+
+    .section {
+        padding: 2rem 2.5rem !important;
     }
 
     .controls {
