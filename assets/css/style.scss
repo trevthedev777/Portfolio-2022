@@ -683,6 +683,76 @@ section {
   // Contact Details
   .left-contact {
     flex: 2;
+
+    h4 {
+      margin-top: 1rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 1rem 0;
+      line-height: 2rem;
+    }
+
+    .contact-info {
+      .contact-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+          margin: .3rem 0 !important;
+          padding: 0 !important;
+        }
+
+        .icon {
+          display: grid;
+          grid-template-columns: 40px 1fr;
+
+          i {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+
+    .social-media-icons {
+      display: flex;
+      margin-top: 2rem;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-white);
+        background-color: var(--color-grey-5);
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin: 0 .4rem;
+        transition: var(--transition-1);
+
+        &:hover {
+          background-color: var(--color-secondary);
+
+          i {
+            color: var(--color-primary);
+          }
+        }
+
+        i {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.3rem;
+          
+        }
+      }
+    }
   }
 
 
@@ -716,6 +786,12 @@ section {
       :last-child {
         margin-left: 1.5rem;
       }
+    }
+
+    // Submit Button
+    .submit-btn {
+      display: flex;
+      justify-content: flex-start;
     }
   }
 }

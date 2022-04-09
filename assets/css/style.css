@@ -816,6 +816,100 @@ section {
           flex: 2;
 }
 
+.contact-content-container .left-contact h4 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.contact-content-container .left-contact p {
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+
+.contact-content-container .left-contact .contact-info .contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-content-container .left-contact .contact-info .contact-item p {
+  margin: .3rem 0 !important;
+  padding: 0 !important;
+}
+
+.contact-content-container .left-contact .contact-info .contact-item .icon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40px 1fr;
+      grid-template-columns: 40px 1fr;
+}
+
+.contact-content-container .left-contact .contact-info .contact-item .icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.contact-content-container .left-contact .social-media-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.contact-content-container .left-contact .social-media-icons a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--color-white);
+  background-color: var(--color-grey-5);
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 .4rem;
+  -webkit-transition: var(--transition-1);
+  transition: var(--transition-1);
+}
+
+.contact-content-container .left-contact .social-media-icons a:hover {
+  background-color: var(--color-secondary);
+}
+
+.contact-content-container .left-contact .social-media-icons a:hover i {
+  color: var(--color-primary);
+}
+
+.contact-content-container .left-contact .social-media-icons a i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.3rem;
+}
+
 .contact-content-container .right-contact {
   -webkit-box-flex: 3;
       -ms-flex: 3;
@@ -849,5 +943,14 @@ section {
 
 .contact-content-container .right-contact .input-control-2 :last-child {
   margin-left: 1.5rem;
+}
+
+.contact-content-container .right-contact .submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 /*# sourceMappingURL=style.css.map */
