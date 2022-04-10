@@ -1,3 +1,77 @@
+@media screen and (max-width: 540px) {
+
+    body {
+
+        p {
+            font-size: .8rem;
+        }
+    }
+    
+    .main-title {
+
+        h2 {
+            font-size: 1.8rem !important;
+
+            span {
+                font-size: 1.8rem !important;
+            }
+
+            .bg-text {
+                font-size: 2rem !important;
+            }
+        }
+    }
+
+    .portfolio-container {
+        grid-template-columns: 1fr !important;
+
+        .portfolio-item {
+
+            img {
+                height: 250px;
+            }
+        }
+    }
+
+    .contact-content-container {
+        flex-direction: column;
+
+        .right-contact {
+            margin-left: 0;
+            margin-top: 2.5rem;
+
+            .input-control-2 {
+                flex-direction: column;
+
+                & :last-child {
+                    margin-left: 0;
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+
+        .left-contact {
+
+            h4 {
+                font-size: 1.8rem;
+            }
+
+            .icon {
+                font-size: .7rem;
+            }
+
+            i {
+                font: .7rem;
+            }
+        }
+
+        p {
+            font-size: .7rem !important;
+        }
+    }
+}
+
+// For Screen sizes 600px and smaller
 @media screen and (max-width: 600px) {
     header {
         padding: 0;

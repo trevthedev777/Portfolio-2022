@@ -234,6 +234,14 @@ section {
 
 // Button Styles
 
+button {
+  background: none;
+
+  .btn-text {
+    text-transform: uppercase;
+  }
+}
+
 .btn-container {
   display: flex;
   align-self: flex-start;
