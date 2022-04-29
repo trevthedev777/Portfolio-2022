@@ -46,3 +46,23 @@ function navTransitions() {
 }
 
 navTransitions();
+
+
+// Form validation
+
+function submitForm() {
+  e.preventDefault();
+  let fieldRequired = form.elements['input'].value;
+
+  if (fieldRequired == '') {
+    let errorMsg = document.getElementById('error');
+    error.innerHTML = '<p>Please Make sure the form is filled out correctly</p>';
+    error.style.display = 'block';
+  } else {
+    console.log('Valid Form Details');
+    form.submit();
+  }
+}
+
+let form = document.getElementById('registration-form');
+form.addEventListener('submit', handleSubmit);
