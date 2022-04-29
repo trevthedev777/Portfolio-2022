@@ -18,9 +18,9 @@ The website is created to display two different themes (Dark & Light) as is for 
 
     -   Located on the top right hand corner of the screen in Large and Small screen sizes, just a click or touch is needed to activate this function
 
-    ![Theme Select Button Dark Mode]()
+    ![Theme Select Button Dark Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/theme_toggle_dark_mode.png?raw=true)
 
-    ![Theme Select Button Light Mode]()
+    ![Theme Select Button Light Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/theme_toggle_light_mode.png?raw=true)
 
 -   Navigation Menu
 
@@ -32,14 +32,16 @@ The website is created to display two different themes (Dark & Light) as is for 
         -   My Blogs on my developement journey
         -   Contact form and details
 
-    ![Nav Menu image dark mode]()
+    ![Nav Menu image dark mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/Navigation_dark_mode.png?raw=true)
 
-    ![Nav Menu image light mode]()
+    ![Nav Menu image light mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/Navigation_light_mode.png?raw=true)
 
 -   Favicon
-    _ A site-wide favicon will be implemented with a red question mark.
-    _ This will provide an image in the tabs header to allow the user to easily identify the website if they many tabs open.
-    ![Favicon](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/favicon.png?raw=true)
+
+    -   A site-wide favicon will be implemented with a logo in black text
+    -   This will provide an image in the tabs header to allow the user to easily identify the website if they many tabs open.
+
+    ![Favicon]()
 
 -   404 Page
     -   A 404 page will be implemented and will display if a user navigates to a broken link.
