@@ -59,15 +59,15 @@ The website is created to display two different themes (Dark & Light) as is for 
 
 ![Home Page Light Mode Image](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/home_page_light_theme.png?raw=true)
 
-![Google Drive Folder]()
+![Google Drive Folder](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/google_drive_folder.png?raw=true)
 
 -   About Section
 
     -   The about section gives more detail about who I am a developer, what skills and languages I have, some stats on my career and work history
 
-![About Section Dark Mode]()
+![About Section Dark Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/about_page_readme_img_dark.png?raw=true)
 
-![About Section Light Mode]()
+![About Section Light Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/about_page_readme_img_light.png?raw=true)
 
 -   Portfolio Section
 
@@ -75,9 +75,9 @@ The website is created to display two different themes (Dark & Light) as is for 
 
     -   Hovering on the image will bring a background with corresponding theme colour and displays the name of the project and an icon that leads you to the source code on my github account
 
-    ![Portfolio Dark Mode]()
+    ![Portfolio Dark Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/portfolio_dark_mode.png?raw=true)
 
-    ![Portfolio Light Mode]()
+    ![Portfolio Light Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/portfolio_light_mode.png?raw=true)
 
 -   Contact Section
 
@@ -101,9 +101,9 @@ The website is created to display two different themes (Dark & Light) as is for 
 
     -   The is a captcha requirement when sending a complete form that will require to prove 'You are not a robot' and it sends the message directly to my email address
 
-    ![Contact Page Dark Mode]()
+    ![Contact Page Dark Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/Contact_form_dark_mode.png?raw=true)
 
-    ![Contact Page Light Mode]()
+    ![Contact Page Light Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/Contact_form_light_mode.png?raw=true)
 
 ### Features left to implement
 
@@ -136,8 +136,15 @@ The website is created to display two different themes (Dark & Light) as is for 
 -   Favicon.io
     -   Favicon was designed using Adobe Photoshop 2022
     -   favicon file created at https://favicon.io/favicon-converter/
+-   Formspree
+    -   [Formspree](https://formspree.io/xgendljq)
 
 ## Testing
+
+-   The Website was tested on my laptop and developer tools
+-   console.log was implemented on click functions during developement to test to send live signal that it was working
+-   Source code was checked by colleagues
+-   WAVE chrome extension was used to show missing aria-labels and colour contrasts
 
 ### Responsiveness
 
@@ -145,7 +152,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open the browser and navigate to [JavaScript Quiz Game Multiple Choice](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice)
+1. Open the browser and navigate to [Trevor Lehmann](https://trevorlehmann.com/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -154,7 +161,7 @@ Steps to test:
 
 Expected:
 
-The game to adapt per size, and stack elements on the smallest screen sizes.
+The wesbite was to display the information as explained in readme.
 
 Actual:
 
@@ -166,7 +173,7 @@ The website behaved as expected.
 
 Testing was focused to ensure the following criteria were met:
 
--   All link tags have the correct path to stylesheets and script
+-   All link tags in the <head></head> have the correct path to stylesheets and script
 -   Aria labels were used for any links
 -   Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
 -   Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end-user
@@ -178,83 +185,52 @@ Testing was focused to ensure the following criteria were met:
 
 Manual tests were also performed to ensure the website was accessible as possible and some accessibility issues were identified.
 
-Issue #1: Styles not loading into the website.
+Issue #1: Portfolio images were not stacking on small screens.
 
-Fix: Correct paths were given to link the documents together for all styles and JS technologies to work smoothly.
+Fix: Set regular breakpoints to stack from 3 per row on medium to large screens and 1 per row on mobile screens.
 
 Issue #2: Script not loading into the website.
 
 Fix: Correct paths were given to link the documents together for all styles and JS technologies to work smoothly.
 
-Issue #3: 404.html not loading into the correct page
+Issue #3: 404.html not loading in web broswer when incorrect link typed in search bar
 
-Fix: renamed the document to the correct name.
+Fix: 404 pages are supposed to be bigger than 512 bytes as per research and artcile found on [The Site Wizzard](https://www.thesitewizard.com/webdesign/google-chrome.shtml).
 
-Issue #4: Total correct score not calculating at the end of the game
+Issue #4: Send Message button not sending message to my email
 
-Fix: Added a new js file saving the local session score
+Fix: Added 'method=POST' to my form action
 
-Issue #5: Hover effect not working on buttons
+Issue #5: Send <button></button> not display on smaller screen sizes
 
-Fix: renamed elements to corresponding class names
-
-Issue #6: Progress Bar not incrementing per question
+Fix: change height of body from 100vh to auto
 
 **Navigation Links**
 
-Testing was performed on 404.html, index.html, and end.html to ensure that the game was directed to the home screen
+Testing was performed on 404.html, index.html, and end.html to ensure that the website was directed to the home screen
 
 Links on all pages are navigated to the correct pages as expected.
 
-**Game Play**
-
--   User starts the game and answers the question
--   Question has timeout function to automatically progress the game so the user does not have to select the next question manually
--   Progress bar increases per question
--   Score increments on every correct answer
-
-The timeout function works correctly
-
-**Game Board**
-
--   Correct Answer displays green background upon selection
--   Incorrect Answer displays red background upon selection and does not show the right answer so user can play again
-
-All displays and transitions displayed correctly
-
-**End of Game**
-
--   Navigation to start of quiz and home page
-
-**Validator Testing**
+## Validator Testing
 
 -   HTML
     -   No errors were returned when index.html passing through the official [W3C validator](https://validator.w3.org)
 
-![Index HTML Validator Results](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/index.html%20validated.png?raw=true)
-
--   No errors were returned when game.html passing through the official [W3C validator](https://validator.w3.org)
-
-![Game HTML Validator Results](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/game.html%20validated.png?raw=true)
-
--   No errors were returned when end.html passing through the official [W3C validator](https://validator.w3.org)
-
-![End HTML Validator Results](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/end.html%20validated.png?raw=true)
+![Index HTML Validator Results]()
 
 -   No errors were returned when 404.html passing through the official [W3C validator](https://validator.w3.org)
 
-![404 HTML Validator Results](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/404.html%20validated.png?raw=true)
+![404 HTML Validator Results]()
 
 -   CSS
     -   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-![CSS Validator Results](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/css%20validated.png?raw=true)
+![CSS Validator Results]()
 
 -   JavaScript
     -   No errors were returned when passing through the script.js in validtor [JShint validator](https://jshint.com/)
-    -   No errors were returned when passing through the end.js in validtor [JShint validator](https://jshint.com/)
 
-**Lighthouse Report**
+### Lighthouse Report
 
 Lighthouse report reported a good performance of 96, Accessibility of 100, best practices of 100, and the SEO was 91
 
@@ -262,9 +238,15 @@ Lighthouse report reported a good performance of 96, Accessibility of 100, best 
 
 ## Deployment
 
+-   The site wwas depolyed on a hosted server useing Xneelo, Located in South Africa
+
+-   The website has a registered domain
+
+-   The website is live at [Trevor Lehmann Website](https://trevorlehmann.com/)
+
 ### Version Control
 
-The site was created using Gitpod and pushed to Github to the remote repository ‘Portfolio-Project-2-Poker-Fun’.
+The site was created using VS Code and pushed to Github to the remote repository ‘Portfolio-2022’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
@@ -274,16 +256,13 @@ The following git commands were used throughout development to push code to the 
 
 `git push` - This command was used to push all committed code to the remote repository on GitHub.
 
-### Deployment to Github Pages
+### Deployment to FTP
 
--   The site was deployed to GitHub pages. The steps to deploy are as follows:
-    -   In the GitHub repository, navigate to the Settings tab
-    -   From the menu on the left select 'Pages'
-    -   From the source section drop-down menu, select the Branch: main
-    -   Click 'Save'
-    -   A live link will be displayed in a green banner when published successfully.
+-   Gain access to the FTP with port number, username and password
 
-The live link can be found here - https://github.com/trevthedev777/javascriptQuizGameMultipleChoice
+-   files were placed in the public folder
+
+The live link can be found here - https://trevorlehmann.com/
 
 ### Clone the Repository Code Locally
 
@@ -299,12 +278,7 @@ The project will now have been cloned on your local machine for use.
 
 ## Credits
 
--   Daisy Mcgirr for being a one of a kind mentor and helping me understand my work
--   Readme inspired by Gareth McGirr - https://github.com/Gareth-McGirr/Portfolio-Project-2-Poker-Fun
--   Dave Horrocks for assisting me with my assignment and working through code with me
--   Phumlani Mbabela for debugging and explanations of the functionality of the game
--   Code snippets of uppercase variables inspired by : [freeCodeCamp](https://www.freecodecamp.org/news/when-to-capitalize-your-javascript-constants-4fabc0a4a4c4/)
--   ProgressBar inspired by [w3schools](https://www.w3schools.com/howto/howto_js_progressbar.asp), simplified code helped by Phulmani Mbabela
--   The Code Institute Tutoring service
--   Idea of quiz inspired by [sitepoint](https://www.sitepoint.com/simple-javascript-quiz/)
--   Tutorials followed [keep_coding](https://www.youtube.com/watch?v=MxrGPP4F8Sc)
+-   Phulani Mbabela for his contribution to the css
+-   Trevor Lehmann for being a O.G Triple O.GGG:)
+
+!!!!!!!ENJOY THE SITE!!!!!!

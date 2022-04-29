@@ -76,6 +76,10 @@ section {
   background-color: var(--color-primary);
 }
 
+.section {
+  min-height: auto;
+}
+
 .section-one {
   display: none;
   -webkit-transform: translateY(0) scale(1);

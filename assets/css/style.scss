@@ -79,6 +79,9 @@ section {
 
 
 // Sections
+.section {
+  min-height: auto;
+}
 // Header Section
 .section-one {
   display: none;
