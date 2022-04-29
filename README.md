@@ -205,7 +205,7 @@ Issue #5: Send <button></button> not display on smaller screen sizes
 
 Fix: change height of body from 100vh to auto
 
-**Navigation Links**
+### Navigation Links
 
 Testing was performed on 404.html, index.html, and end.html to ensure that the website was directed to the home screen
 
@@ -216,16 +216,16 @@ Links on all pages are navigated to the correct pages as expected.
 -   HTML
     -   No errors were returned when index.html passing through the official [W3C validator](https://validator.w3.org)
 
-![Index HTML Validator Results]()
+![Index HTML Validator Results](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/HTML_Validator.png?raw=true)
 
 -   No errors were returned when 404.html passing through the official [W3C validator](https://validator.w3.org)
 
-![404 HTML Validator Results]()
+![404 HTML Validator Results](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/404_Validator.png?raw=true)
 
 -   CSS
     -   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-![CSS Validator Results]()
+![CSS Validator Results](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/CSS_Validator.png?raw=true)
 
 -   JavaScript
     -   No errors were returned when passing through the script.js in validtor [JShint validator](https://jshint.com/)
@@ -234,7 +234,7 @@ Links on all pages are navigated to the correct pages as expected.
 
 Lighthouse report reported a good performance of 96, Accessibility of 100, best practices of 100, and the SEO was 91
 
-![Lighthouse report](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/lighthouse%20report.png?raw=true)
+![Lighthouse report](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/lighthouse.png?raw=true)
 
 ## Deployment
 
