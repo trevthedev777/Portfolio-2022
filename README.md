@@ -6,7 +6,7 @@ The website is created to display two different themes (Dark & Light) as is for 
 
 ![Mock Up Dark Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/mock_up_dark_mode.png?raw=true)
 
-![Mock Up Light Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/home_page_light_theme.png?raw=true)
+![Mock Up Light Mode](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/mock_up_light_mode.png?raw=true)
 
 [Trevor Lehmann Portfolio Website](https://trevorlehmann.com/)
 
@@ -41,45 +41,78 @@ The website is created to display two different themes (Dark & Light) as is for 
     -   A site-wide favicon will be implemented with a logo in black text
     -   This will provide an image in the tabs header to allow the user to easily identify the website if they many tabs open.
 
-    ![Favicon]()
+    ![Favicon](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/favicon_image.png?raw=true)
 
 -   404 Page
     -   A 404 page will be implemented and will display if a user navigates to a broken link.
-    -   The 404 page shares the same layout as the game menu and will hopefully allow users to not even notice the wrong address was inserted
+    -   The 404 page shares the same layout as landing page and there is a link to the live site
 
-![404](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/404.png?raw=true)
+![404](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/404_image.png?raw=true)
 
-_Home Page_
+-   Home Page
 
--   Start game link to take the user straight to the first question
+    -   The Home Page is a brief intoduction to myself with a image of me, it has a hover effect to display the image in colour when your cursor moves on it
 
-![Home Page Image](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/home%20screen.png?raw=true)
+    -   There is a button that will redirect you from the website to a google drive folder that will allow you to download my CV in either light or dark mode
 
--   the user just needs to click the Game Start Button and start playing
+![Home Page Dark Mode Image](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/home_page_dark_theme.png?raw=true)
 
-_Game Page_
+![Home Page Light Mode Image](https://github.com/trevthedev777/Portfolio-2022/blob/master/assets/images/readme_imgs/home_page_light_theme.png?raw=true)
 
--   Questions
+![Google Drive Folder]()
 
-    -   Each question is based on general knowledge and can prove to be tricky, they are displayed on the center of the screen underneath the hud display and above the answer selections
-    -   There is a question progress bar and counter that will notify the user when they are reaching the end of the game
-    -   There is a score generator on the top right-hand side of the screen that increments on every correct answer
+-   About Section
 
-![Game Board Image](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/gamescreen.png?raw=true)
+    -   The about section gives more detail about who I am a developer, what skills and languages I have, some stats on my career and work history
 
--   End of the game screen
+![About Section Dark Mode]()
 
-    -   once the user has ended the quiz, they are brought to the end of the game screen which gives them their score and an option to return to the home page or jump straight back to the first question
+![About Section Light Mode]()
 
-    ![End Game Image](https://github.com/trevthedev777/javascriptQuizGameMultipleChoice/blob/main/assets/readme%20images/end%20game%20screen.png?raw=true)
+-   Portfolio Section
+
+    -   The profilio section is set up in 3 per row formation with a screenshot of the home page of every project/application
+
+    -   Hovering on the image will bring a background with corresponding theme colour and displays the name of the project and an icon that leads you to the source code on my github account
+
+    ![Portfolio Dark Mode]()
+
+    ![Portfolio Light Mode]()
+
+-   Contact Section
+
+    -   The contact page will display my personal contact detail information including:
+
+        -   Personal Mobile Number
+        -   Personal Email Address
+        -   The city I am located in
+        -   What languages I can speak
+        -   Links to :
+            -   Github profile
+            -   LinkedIn profile
+            -   Codepen profile
+
+    -   There is also a contact form page which has just standard HTML form validation, it requires:
+
+        -   A name
+        -   An email address
+        -   Subject
+        -   A message
+
+    -   The is a captcha requirement when sending a complete form that will require to prove 'You are not a robot' and it sends the message directly to my email address
+
+    ![Contact Page Dark Mode]()
+
+    ![Contact Page Light Mode]()
 
 ### Features left to implement
 
--   Countdown Timer
--   Different difficulty settings
--   Scoreboard for single-player mode
--   Head to Head remote play
--   Leaderboard when playing online through a server
+-   Whatsapp link to contact me directly
+-   Download CV directly from the website withour being redirected
+-   Blog secction to load the article in its own window
+-   Like, Dislike a favorite the blogs
+-   Connect to a backend database system so users can sign up for latest news and events and implement a weekly newsletter when new blogs are released
+-   Request a online appointment
 
 ## Technologies
 
@@ -87,17 +120,21 @@ _Game Page_
     -   The structure of the Website was developed using HTML as the main language.
 -   CSS
     -   The Website was styled using custom CSS in an external file.
+-   Sass
+    -   The styles were created in the css preprocessor Sass and compiled neatly in the css file.
 -   JavaScript
-    -   The gameplay logic was created using JavaScript in an external file.
--   Gitpod
-    -   The website was developed using Gitpod
--   GitHub
-    -   Source code is hosted on GitHub and deployed using Git Pages.
+    -   The theme change was implemented using the show hide class function in JavaScript.
+    -   The website was created as a single page app that shows add hides section based on evenListeners and functions
+-   VS Code.
+    -   The website was developed using VS Code
+-   GitHub.
+    -   Source code is hosted on GitHub.
 -   Git
-    -   Used to commit and push code during the development of the Website
+    -   Used to commit and push code during the development of the Website.
 -   Font Awesome
     -   Icons obtained from https://fontawesome.com/
 -   Favicon.io
+    -   Favicon was designed using Adobe Photoshop 2022
     -   favicon file created at https://favicon.io/favicon-converter/
 
 ## Testing
